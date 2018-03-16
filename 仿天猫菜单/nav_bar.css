@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrap{
+    width: 200px;
+    position: relative;
+    background: rgb(150, 144, 144);
+}
+
+/* #wrap ul{
+  overflow: hidden;
+} */
+
+#wrap ul li{
+    list-style: none;
+    /* float: left; */
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    border: solid blue 2px;
+}
+
+.active{
+    background: red;
+}
+
+#content{
+  position: absolute;
+  left: 200px;
+  top: 0;
+  width: 100px;
+  height: 300px;
+  background: green;
+}
+.none{
+    display: none;
+}
