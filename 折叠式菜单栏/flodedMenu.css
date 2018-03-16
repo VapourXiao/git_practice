@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.none{
+    display: none;
+}
+ ul{
+    width: 60px;
+    background: grey;
+    position: relative;
+    left: 30px;
+    top: 0px;
+
+}
+ul li{
+    list-style: none;
+    overflow: hidden
+}
+ul li ul{
+  padding: 0px;
+  margin: 0px;
+  float: left;
+}
+ul li ul li{
+    float: left;
+    list-style: none;
+}
